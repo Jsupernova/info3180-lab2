@@ -1,3 +1,80 @@
 body {
     padding-top: 5rem;
 }
+#head{
+    background-color: rgb(54, 37, 151);
+    background-image: linear-gradient(rgb(66, 80, 156), rgb(54, 37, 151));
+    color: white;
+    /* border-radius: 3%; */
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    text-align: center;
+    display:block;
+    padding: 10px;
+    margin:0;
+    padding-bottom: 0.25px;
+}
+#head p{
+    color: rgb(218, 221, 219);
+}
+#profilepic{
+    border-radius: 50%;
+}
+
+#header{
+    margin: 0; 
+    padding: 0;
+
+}
+#bio{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding: 0;
+    text-align: left;
+    
+    
+
+}
+#bio p{
+    color: rgb(53, 53, 53);
+
+}
+#aboutblock{
+    border: rgb(160, 160, 160) solid 1px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    align-content: center;
+}
+li {  display:inline-block;
+    vertical-align:middle;}
+#counters{
+    text-align: center;
+}
+ #values li{
+    margin-right: 55px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+#varibles li{
+    margin-top:0;
+    margin-right: 50px;
+    color: rgb(53, 53, 53);
+
+}
+#btn{
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#btn button{
+    background-color: rgb(60, 57, 221);
+    color:white;
+    padding:10px;
+    width:40%;
+    border-radius: 10px;
+}
