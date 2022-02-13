@@ -9,8 +9,8 @@ from app import app
 from flask import render_template, request, redirect, url_for, flash
 import datetime
 
-# def format_date_joined(dat):
-#     return dat.strftime("%B, %Y")
+def format_date_joined(dat):
+    return dat.strftime("%B, %Y")
 
 
 ###
@@ -26,7 +26,7 @@ def home():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html', name="Mary Jane")
+    return render_template('about.html', name="Jason Dale")
 
 
 ###
@@ -34,7 +34,7 @@ def about():
 ###
 @app.route('/profile')
 def profile():
-    return render_template('profile.html')
+    return render_template('profile.html',date=format_date_joined(datetime.datetime.now()),name="Jason Dale ",username="Jsupernova")
 
 
 
